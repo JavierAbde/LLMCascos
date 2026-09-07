@@ -13,7 +13,7 @@ modelo_general = YOLO("yolo11s.pt")
 
 # Clasificador casco / no casco
 modelo_clasificador = YOLO(
-    r"runs\classify\train\weights\best.pt"
+    r"weights\best.pt"
 )
 
 
